@@ -1,0 +1,4 @@
+EXTRA_CFLAGS = -Wall
+
+KBUILD_CFLAGS += -Wno-declaration-after-statement -Wno-misleading-indentation
+obj-m        = hider.o
